@@ -92,7 +92,7 @@ Community focus: ${group.topicFocus.join(', ')}
 Post format: ${format.name}
 Instructions: ${format.instruction}
 
-RULES: 150-250 words max. No hashtags. First person. Sound human. 
+RULES: 150-250 words max. No hashtags. First person. Sound human. Today is ${new Date().toLocaleDateString()}. Post #${Math.floor(Math.random() * 10000)}. Never repeat a post you've written before. Always find a fresh angle, different hook, and unique perspective even if covering similar news.
 Spin news to fit this community if needed.
 Output ONLY the post text. Nothing else.`,
     }],
@@ -141,7 +141,6 @@ function buildEmailPayload(group, postText, postToken, score, format) {
   return {
     subject: `⚡ Post Ready — ${group.name}`,
     body_html: emailHtml,
-    simple_body: postText,
     body_text: `New post ready for ${group.name}:\n\n${postText}\n\nOne-tap post link: ${oneTapUrl}`,
     post_content: postText,
     group_name: group.name,
