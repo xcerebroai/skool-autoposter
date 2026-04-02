@@ -20,18 +20,15 @@ module.exports = {
       ],
       newsSources: [
         'https://www.anthropic.com/news.rss',
-        'https://openai.com/blog/rss',
-        'https://blog.google/technology/ai/rss',
         'https://techcrunch.com/category/artificial-intelligence/feed/',
         'https://venturebeat.com/category/ai/feed/',
         'https://www.theverge.com/ai-artificial-intelligence/rss/index.xml',
-        'https://www.wired.com/feed/tag/artificial-intelligence/latest/rss',
         'https://www.technologyreview.com/topic/artificial-intelligence/feed',
         'https://hnrss.org/frontpage?q=AI+LLM+Claude+ChatGPT+GPT&count=5',
-        'https://www.producthunt.com/feed?category=artificial-intelligence',
-        'https://www.reddit.com/r/artificial/.rss',
-        'https://www.reddit.com/r/ChatGPT/.rss',
-        'https://www.reddit.com/r/MachineLearning/.rss',
+        'https://feeds.feedburner.com/TheHackersNews',
+        'https://www.artificialintelligence-news.com/feed/',
+        'https://aiweekly.co/issues.rss',
+        'https://buttondown.email/ainews/rss',
       ],
       postFormats: [
         {
@@ -98,12 +95,12 @@ module.exports = {
         'https://techcrunch.com/category/artificial-intelligence/feed/',
         'https://venturebeat.com/category/ai/feed/',
         'https://www.anthropic.com/news.rss',
-        'https://openai.com/blog/rss',
         'https://therealdeal.com/feed/',
         'https://www.inman.com/feed/',
         'https://hnrss.org/frontpage?q=real+estate+AI+automation+property&count=5',
-        'https://www.reddit.com/r/realestateinvesting/.rss',
-        'https://www.reddit.com/r/wholesaling/.rss',
+        'https://www.artificialintelligence-news.com/feed/',
+        'https://www.housingwire.com/feed/',
+        'https://www.biggerpockets.com/blog/feed',
       ],
       postFormats: [
         {
