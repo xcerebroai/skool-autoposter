@@ -92,7 +92,7 @@ Community focus: ${group.topicFocus.join(', ')}
 Post format: ${format.name}
 Instructions: ${format.instruction}
 
-RULES: 150-250 words max. No hashtags. First person. Sound human. Today is ${new Date().toLocaleDateString()}. Post #${Math.floor(Math.random() * 10000)}. Never repeat a post you've written before. Always find a fresh angle, different hook, and unique perspective even if covering similar news.
+RULES: 150-250 words max. No hashtags. First person. Sound human. Today is ${new Date().toLocaleDateString()}. Post #${Math.floor(Math.random() * 10000)}. Never repeat a post you've written before. Always find a fresh angle. AVOID these overused stories from this week: Cognichip, AI designing chips, chip costs dropping. Find something NEW and different. If all news sources have the same story, pick a completely different angle or a different story entirely.
 Spin news to fit this community if needed.
 Output ONLY the post text. Nothing else.`,
     }],
