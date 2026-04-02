@@ -141,7 +141,7 @@ function buildEmailPayload(group, postText, postToken, score, format) {
   return {
     subject: `⚡ Post Ready — ${group.name}`,
     body_html: emailHtml,
-    body_text: `New post ready for ${group.name}:\n\n${postText}\n\nOne-tap post link: ${oneTapUrl}`,
+    body_text: `New post ready for ${group.name}:\n\n${postText}`,
     post_content: postText,
     group_name: group.name,
     post_format: format,
